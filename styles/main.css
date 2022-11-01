@@ -10,9 +10,9 @@ body {
 }
 
 .train-image {
-    width: 17rem;
+    width: 20rem;
     /* margin-right: 4rem; */
-    margin: 5rem;
+    margin: 4rem;
     border-radius: 1rem;
 }
 
@@ -156,6 +156,11 @@ a {
 }
 .header-right {
     float: right;
+}
+
+.icons {
+    text-align: left;
+    margin-top: 1rem;
 }
 
 @media screen and (max-width: 500px) {
