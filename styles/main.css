@@ -150,7 +150,10 @@ a {
     color: white;
 }
   
-
+.trains-header a.active {
+    background-color: lavender;
+    color: black;
+}
 .header-right {
     float: right;
 }
@@ -264,6 +267,10 @@ li {
     display: flex;
     align-items: center;
 }
+
+.trains-footer {
+    background-color: white;
+}
   
 @media only screen and (min-width: 400px) and (max-width: 796px) {
 
@@ -285,4 +292,13 @@ li {
     height: 25rem;
 
    } 
+   .trains-content {
+    margin: 40px;
+    margin-right: 0;
+   }
+   .main-trains {
+    width: 53rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+   }
   }
