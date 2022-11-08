@@ -1,0 +1,244 @@
+.header {
+    overflow: hidden;
+    background-color:burlywood;
+    padding: 20px 10px;
+  }
+  
+  .header_items {
+    margin-right: 1rem;
+  }
+  
+  .header a {
+    float: left;
+    color:aliceblue;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 2.0rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-weight: 200;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    font-weight: 600;
+    font-size: 2.5rem;
+  }
+
+  .header a:hover {
+    background-color:black;
+    color:aliceblue;
+  }
+
+  .header-right {
+    float: right;
+  }
+  h1 {
+    font-size: 2.0rem;
+    color: red;
+    text-align: left;
+    margin-left: 20px;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    justify-content:flex-start;
+  }
+  h1 a {
+    color:red;
+  }
+  h1 a:hover {
+    background-color:black;
+  }
+  *{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+  }
+  .container {
+    display:flex;
+    justify-content: center;
+  }
+  .card {
+    width:270px;
+    height:350px;
+    background:rgb(235, 73, 73);
+    margin: 10px;
+    border-radius: 15px;
+  
+  }
+  h3 {
+    text-align: center;
+  }
+  .card h3 {
+    color: azure;
+    padding: 10px;
+    font-size: 25px;
+  }
+  .card li {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    font-size: large;
+  }
+
+  table, td {
+    background-color:rgb(243, 232, 232);
+    width:800px;
+    margin:auto;
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding:10px;
+    text-align:justify;
+    border: 2px solid white;
+    border-collapse: collapse;
+    margin-bottom: 2em;
+  }
+  td {
+    color: red;
+  }
+  th{
+    background-color: burlywood;
+    font-style: normal;
+    font-size: 25px;
+    text-align: center;
+  }
+  th{
+    color:aliceblue;
+  }
+  h4{
+    font-size: 30px;
+  }
+  @media screen and (max-width: 500px) 
+  {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+  }
+  
+    .header-right {
+        float: none;
+  }
+
+}
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 30px 30px 20px 30px;
+  color: white;
+  background-color: burlywood;
+}
+
+.footer_section {
+  margin-right: 1.25em;
+  margin-bottom: 2em;
+}
+
+.name_page {
+  font-family: 'Pacifico', cursive;
+  font-weight: 600;
+  text-transform: lowercase;
+  font-size: 1.5rem;
+}
+
+.footer_section h2 {
+  margin-top: 1.3em;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.title_f {
+  font-weight: 400;
+  font-size: 30px;
+  margin-left: 2rem;
+}
+
+.footer address {
+  font-style: normal;
+  color: black;
+  font-size: 1em;
+}
+
+.link_f {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  max-width: max-content;
+  background-color:burlywood;
+  border-radius: 100px;
+  color: #2f2f2f;
+  line-height: 0;
+  margin: 0.6em 0;
+  font-size: 1rem;
+  padding: 0 1.3em;
+
+}
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer li {
+  line-height: 2em;
+
+}
+
+.footer a {
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.list_f {
+  display: flex;
+    flex-flow: row wrap;
+}
+
+.ul_f a {
+  color:black;
+  
+}
+
+.ul_f--extra {
+  column-count: 2;
+  column-gap: 1.25em;
+}
+
+li {
+  margin-left: 2rem;
+}
+.copy_f {
+  margin-top: 12rem;
+  color:black;
+}
+  
+.link_f {
+  display: flex;
+  align-items: center;
+}
+
+.heart {
+  color: #2f2f2f;
+}
+
+@media screen and (min-width: 24.375em) {
+  .legal .link_f {
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 40.375em) {
+
+  .footer_section {
+    flex: 1 0px;
+  }
+  
+  .list_f {
+    flex: 2 0px;
+  }
+}
+

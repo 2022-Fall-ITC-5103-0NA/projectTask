@@ -44,6 +44,11 @@ body {
     margin-bottom: 6rem;
     margin-top: 3rem;
 }
+
+.main-block {
+    height: 32rem;
+    display: inline;
+}
 .main {
     background-color: #FFFFFF;
     width: 477px;
@@ -162,6 +167,48 @@ a {
     text-align: left;
     margin-top: 1rem;
 }
+
+.card a {
+    background-color: black;
+    color: white;
+    padding:15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
+.card:hover {
+    background-color: lavender;
+    color: black;
+    transform: scale(1.05);
+    transition: all 1s ease;
+}
+
+.card {
+    width:270px;
+    height:350px;
+    background:rgb(100, 100, 165);
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card h3 {
+    color: azure;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.card li {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    font-size: large;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+}
+
 
 @media screen and (max-width: 500px) {
     .header a {
